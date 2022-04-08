@@ -15,3 +15,6 @@ end
 get '/time' do
     Time.now.to_s
 end
+not_found do
+    "<html><body>Sorry, you're lost!</body></html>"
+  end
